@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-*=4+sw%_k1-f1p!!hz8@i@+)(k_lf4o+s3%$v0q_s4)@6b9=hp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['hieutt_wordle_server.onrender.com']
 
 
 # Application definition
@@ -125,5 +125,3 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-ALLOWED_HOSTS = ['hieutt_wordle_server.onrender.com']
