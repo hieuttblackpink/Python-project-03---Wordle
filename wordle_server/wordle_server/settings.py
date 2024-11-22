@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-*=4+sw%_k1-f1p!!hz8@i@+)(k_lf4o+s3%$v0q_s4)@6b9=hp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['hieutt_wordle_server.onrender.com', '127.0.0.1', 'hieutt_wordle_server.up.railway.app']
+ALLOWED_HOSTS = ['hieutt_wordle_server.onrender.com', '127.0.0.1', 'hieutt-wordle-server.up.railway.app']
 
 
 # Application definition
