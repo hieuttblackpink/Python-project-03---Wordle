@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse, HttpRequest
 from . import word_dictionary as wd
 from enchant import Dict as enDict
