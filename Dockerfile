@@ -9,7 +9,7 @@ WORKDIR /app
 
 # Install Enchant and dependencies
 RUN apt-get update && apt-get install -y \
-    enchant-2 \
+    enchant \
     libenchant-dev && \
     apt-get clean
 
